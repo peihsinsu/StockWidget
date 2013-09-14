@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/widget_bg</item>
+    </style>
+    
+    <style name="ButtonBackground">
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+    </style>
+
+    <style name="InputBackground">
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:paddingBottom">3dip</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:layout_marginBottom">3sp</item>
+    </style>
+    
+    <style name="BulletPoint">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text" />
+
+    <style name="Text.Loading">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.WordTitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.WordType">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Text.Definition">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+    <style name="LookupProgress">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_spin</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+
+    <style name="LookupTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    
+    <style name="Text.StockTitle">
+        <item name="android:textSize">12sp</item>
+        <!-- 
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:paddingBottom">3dip</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:layout_marginBottom">3sp</item>
+         -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item> 
+    </style>
+
+	<style name="Text.Base">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item> 
+    </style>
+	<style name="Text.StockName">
+        <item name="android:textSize">12sp</item>
+        <!-- 
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:paddingBottom">3dip</item>
+        <item name="android:layout_marginTop">3sp</item>
+        <item name="android:layout_marginBottom">3sp</item>
+         -->
+        <item name="android:layout_marginLeft">0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item> 
+    </style>
+    <style name="Text.CurrentPrice">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">45dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Text.Diff">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">100dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Text.Date">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">155dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

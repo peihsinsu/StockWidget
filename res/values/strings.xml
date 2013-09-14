@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">Stock Widget</string>
+    <string name="config_stock_code">Stock Code Configuration</string>
+    <string name="configure_title">Stock Widget Configuration</string>
+    <string name="msg_title">Stock Widget Help</string>
+    <string name="config_desc">
+    Please fill the stock code for widget to show! For example: 2498.TW is the stock code 2498 and the stock is in Taiwan(TW).
+    \nSystem configured default update interval is 3 minutes. For update manually, you can press the button in the widget to update directly. 
+    \nPS: Data source is switch to retrieve from Yahoo Stock Web. The stock update interval is decided by Yahoo update interval. 
+    </string>
+    <string name="menu_exit">EXIT</string>
+    <string name="menu_help">HELP</string>
+    <string name="menu_stocksize">STOCK SIZE</string>
+    <string name="GoogleCodeSite">http://code.google.com/p/stock-widget/</string>
+    <string name="timepicker_title">Setup Time Period</string>
+    <string name="timepicker_msg">Select Time:</string>
+    <string name="StockCode">Stock Code</string>
+    <string name="StockCode1">Stock Code 1</string>
+    <string name="StockCode2">Stock Code 2</string>
+    <string name="StockCode3">Stock Code 3</string>
+    <string name="SyncStartTime">Sync Start Time</string>
+    <string name="SyncEndTime">Sync End Time</string>
+    <string name="OK">OK</string>
+    <string name="SAVE">SAVE</string>
+    <string name="UpdateTime">Update Time:</string>
+    <string name="SavePrefDone">Save preference done!</string>
+    <string name="ExceptionMsg1">Internet problem or stock code not set or interval error!</string>
+    <string name="UpdateWidgetData">Update Widget Data...</string>
+    <string name="NotSyncIntervalMsg">Not time interval, skip fetching data...</string>
+    <string name="FetchDataMsg">Fetching data....\nPlease wait a minutes...</string>
+    <string name="syncInterval">Sync Interval (Second)</string>
+    <string name="sleepIntervalTooLong">Sleep interval setting is too long!</string>
+    <string name="syncIntervalNotValied">Sync interval not valid, set to default!</string>
+    <string name="syncIntervalTooShort">Sync interval setup to short, notice for performance bad and traffic too much!</string>
+    <string name="YahooStockWeb">http://tw.stock.yahoo.com/</string>
+    <string name="TwStockSelectWeb">http://tw.stock.yahoo.com/h/kimosel.php?form=menu&amp;form_id=stock_id&amp;form_name=stock_name</string>
+    <string name="AmStockSelectWeb">http://tw.stock.yahoo.com/us/lookup.php</string>
+    <string name="StockId">Stock Id</string>
+    <string name="default_interval">300</string>
+    <string name="SetupStockSizeDesc">Please select the total size you want to monitor...</string>
+    <string name="StockSize">Stock Size:</string>
+    <string name="NumberFormatException">Number Format Error!</string>
+    <string name="TooMuchStocks">You setup too much stock for monitor, for performance concern... system restrict size to 10 stocks. And please be careful of your network traffic!</string>
+    <string name="first_start_btn">Yes, I know.</string>
+    <string name="first_start_msg_title">Thanks for use!</string>
+    <string name="first_start_msg">
+    	Thanks for your use of my app. If you like this program, please give me more star :D.
+    	If possible, you can visit my ads.
+    	And if you have any problem or idea to improve this app. Please let me know.</string>
+    <string name="menu_contact_me">Author</string>
+    <string name="mail_me">Mail to Author</string>
+    <string name="weekend">Weekend</string>
+    <string name="is_skip_weekend">Skip Weekend (select for skip sync when weekend)</string>
+    <string name="is_single_color_mode">Single color mode (select for one color display)</string>
+    <string name="StockWidgetWiki">http://code.google.com/p/stock-widget/wiki/StockCodes</string>
+</resources>

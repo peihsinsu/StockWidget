@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_stocksize"
+          android:title="@string/menu_stocksize"
+          android:icon="@drawable/iconstocksize" />
+    <item android:id="@+id/menu_help"
+          android:title="@string/menu_help"
+          android:icon="@drawable/iconquestion" />
+    <item android:id="@+id/menu_contact_me"
+          android:title="@string/menu_contact_me"
+          android:icon="@drawable/iconauthor" />
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">股票桌面小工具</string>
+    <string name="config_stock_code">股票設定</string>
+    <string name="configure_title">股票設定</string>
+    <string name="msg_title">協助</string>
+    <string name="config_desc">
+    請填寫欲呈現在桌面小工具的股票代碼，如鴻海（台灣）可設定：2498.TW，其中2498為鴻海股票代號，TW為設定中區域代號。\n
+    系統預設更新時間為3秒鐘，如有需要手動更新，請直接點按桌面小工具即可直接更新數據。\n
+    本系統資料來源以切換至為YAHOO股票網頁，更新時間視YAHOO蒐集資料區間而定。
+    </string>
+    <string name="menu_exit">離開</string>
+    <string name="menu_help">協助</string>
+    <string name="menu_stocksize">監控張數</string>
+    <string name="GoogleCodeSite">http://code.google.com/p/stock-widget/</string>
+    <string name="timepicker_title">設定同步區間</string>
+    <string name="timepicker_msg">請選擇時間:</string>
+    <string name="StockCode">股票代碼</string>
+    <string name="StockCode1">股票代碼1</string>
+    <string name="StockCode2">股票代碼2</string>
+    <string name="StockCode3">股票代碼3</string>
+    <string name="SyncStartTime">同步起始時間</string>
+    <string name="SyncEndTime">同步結束時間</string>
+    <string name="OK">確認</string>
+    <string name="SAVE">儲存</string>
+    <string name="UpdateTime">更新時間:</string>
+    <string name="SavePrefDone">儲存資料完畢!</string>
+    <string name="ExceptionMsg1">網路連線異常或股票資訊或是同步區間設定有誤!</string>
+    <string name="UpdateWidgetData">更新股票桌面小工具...</string>
+    <string name="NotSyncIntervalMsg">非股票桌面小工具同步區間，暫不更新...</string>
+    <string name="FetchDataMsg">資料截取中....\n請稍候片刻...</string>
+    <string name="syncInterval">同步間隔(秒)</string>
+    <string name="sleepIntervalTooLong">同步間隔時間設定過長!</string>
+    <string name="syncIntervalNotValied">同步間隔設定錯誤，設為預設值!</string>
+    <string name="syncIntervalTooShort">同步間隔設定過短，請注意會造成系統忙碌或流量過大!</string>
+    <string name="YahooStockWeb">http://tw.stock.yahoo.com/</string>
+    <string name="TwStockSelectWeb">http://tw.stock.yahoo.com/h/kimosel.php?form=menu&amp;form_id=stock_id&amp;form_name=stock_name</string>
+    <string name="AmStockSelectWeb">http://tw.stock.yahoo.com/us/lookup.php</string>
+    <string name="StockId">股票代號</string>
+    <string name="SetupStockSizeDesc">請設定您欲監看的股票張數</string>
+    <string name="default_interval">300</string>
+    <string name="StockSize">股票張數:</string>
+    <string name="NumberFormatException">數字格式錯誤！</string>
+    <string name="TooMuchStocks">您設定的股票張數過多，因效能考量系統限制僅可10筆以下，另請注意網路流量！</string>
+    <string name="first_start_btn">OK，我知道！</string>
+    <string name="first_start_msg_title">感謝您的使用！</string>
+    <string name="first_start_msg">
+    	感謝您使用此APP。如果您喜歡這個APP，請多給些星星作為鼓勵。也歡迎點選精彩的廣告唷！
+    	如果使用上有任何問題或是有任何改進的想法，歡迎隨時提供給我。
+    </string>
+    <string name="menu_contact_me">作者</string>
+    <string name="mail_me">寄信給作者</string>
+    <string name="weekend">週末</string>
+    <string name="is_skip_weekend">忽略週末(選取後週末時間將不做同步)</string>
+    <string name="is_single_color_mode">單色模式(選取以使用單色模式顯示)</string>
+    <string name="StockWidgetWiki">http://code.google.com/p/stock-widget/wiki/StockCodes</string>
+</resources>
